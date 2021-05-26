@@ -70,7 +70,8 @@ case yes, no
 class SportCar: MyCar{
     var stateNitro: Nitro
     init(manageability: String, trafficSafety: Double, fuelEfficiency: Double, environmentalFriendliness: Bool, motorEngine: MyCar.Engine, carHood: MyCar.CarHood, stateNitro: Nitro) {
-    self.stateNitro = stateNitro
+    
+        self.stateNitro = stateNitro
         
     super.init(manageability: manageability,trafficSafety: trafficSafety,fuelEfficiency:  fuelEfficiency, environmentalFriendliness: environmentalFriendliness, motorEngine: motorEngine,carHood: carHood)
     
